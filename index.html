@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Клуб Динамо</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body class="main_page">
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>ФК "Динамо" Київ</h1></a>
+            <p>
+              <img class="logo_img" src="./img/Офіційна_емблема_Прем'єр-Ліги.png" alt="Football club">
+              <span>Футбольний клуб</span>
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar "></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Головна</a>
+            </li>
+            <li>
+              <a href="players.html">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> Команда</a>
+            </li>
+            <li>
+              <a href="./matches.html">
+                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Матчі</a>
+            </li>
+            <li>
+              <a href="award-category.html">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Нагороди</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:+380935187790">
+                <span>093-518-7790</span></a><div>* Заказати квиток</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:+380935187790">
+    <span class="glyphicon glyphicon-earphone"></span>
+    093-518-7790
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* Заказати квиток</div>
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+       <!-- image slider start -->
+   <div class="sliders">
+    <div class="slides">
+        <!-- radio buttons starts -->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <!-- radio buttons end -->
+        <!-- slide images start -->
+        <div class="slide first">
+            <img src="./img/5DM43054.jpg" alt="Slide1">
+        </div>
+        <div class="slide">
+            <img src="./img/o_1fujc5g8v113fhfsptafb1r1c1k.jpg" alt="Slide2">
+        </div>
+        <div class="slide">
+            <img src="./img/Screenshot_1.png" alt="Slide3">
+        </div>
+        <!-- slide images end -->
+        <!-- automation navigation start-->
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+        </div>
+        <!-- automation navigation end -->
+    </div>
+    <!-- manual navigation start -->
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+    </div>
+    <!-- manual navigation end -->
+   </div>
+   <!-- image slider end -->
+    </div>
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="players.html"><div id="menu-tile"><span>команда</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="matches.html"><div id="specials-tile"><span>Матчі</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/B1A9yMEbKbUBrnJg8" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.511824461447!2d30.53340681573129!3d50.45019307947534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce4d637de063%3A0x9b54fb10552f8727!2z0KHRgtCw0LTRltC-0L0gwqvQlNC40L3QsNC80L7CuyDRltC8LiDQktCw0LvQtdGA0ZbRjyDQm9C-0LHQsNC90L7QstGB0YzQutC-0LPQvg!5e0!3m2!1suk!2sua!4v1684696627253!5m2!1suk!2sua" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <span>Карта</span>
+          </div>
+        </a>
+      </div>
+    </div><!-- End of #home-tiles -->
+  </div><!-- End of #main-content -->
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Робочі години:</span><br>
+          Пон-Чт: 11:00 - 22:00<br>
+          Пт: 11:15 - 17:30<br>
+          Сб-Нд: Закрито
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Адреса:</span><br>
+          Київ<br>
+          Україна
+          <p>* У нас найдешевші квитки на матчі, тому звертайтеся до нас!</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"Ідеальний сервіс! <br> Я ходив на матч "Динамо Київ" - "Шахтер" (28/04)."</p>
+          <p>"Чудове обслуговування! Не міг просити більше! Я буду повертатися знову і знову!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Dynamo Kiev 2023</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="./js/jquery-3.6.4.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
